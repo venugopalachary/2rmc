@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/viewGroup"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainingData">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+      <ImageView
+          android:id="@+id/trainingdata"
+          android:layout_above="@+id/Bookseat"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/v4"/>
+
+
+       <TextView
+        android:id="@+id/Bookseat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horticulture is the agronomic science that deals with the study of growing trees, vegetables, flowers, and landscape architecture. The Horticulture discipline is concerned with cultivating plants for human consumption, but also for medical purposes or simply for aesthetic pleasure"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+
+           />
+
+        <Button
+           android:background="#00953F"
+            android:text="Book Your SEAT"
+            android:id="@+id/booknow"
+            android:layout_below="@+id/Bookseat"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

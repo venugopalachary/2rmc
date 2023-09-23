@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoilFragment">
+
+
+
+    <ImageView
+        android:id="@+id/trainingdata"
+        android:layout_above="@+id/Bookseat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/soiltesting"/>
+
+
+    <TextView
+        android:id="@+id/Bookseat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It involves measuring the weight and volume of a compacted soil
+        sample and calculating the dry density.
+        This test helps in evaluating the soil's suitability for
+        construction projects, assessing its strength and stability,
+        and determining optimum moisture content for compaction"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:background="#00953F"
+        android:text="Book Now"
+        android:id="@+id/booknow"
+        android:layout_below="@+id/Bookseat"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

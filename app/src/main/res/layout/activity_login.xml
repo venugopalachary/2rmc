@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView2"
+        android:id="@+id/imageView"
+        android:layout_width="123dp"
+        android:layout_height="126dp"
+        app:srcCompat="@mipmap/logo"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_above="@+id/textView3"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your mobile number"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="we will send you the 4 digit verification code"
+         />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView3"
+        android:id="@+id/editTextPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editTextPhone"
+        android:id="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#00953F"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="449dp" />
+</RelativeLayout>
