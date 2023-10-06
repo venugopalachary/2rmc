@@ -19,7 +19,7 @@ public class PermissionActivity extends AppCompatActivity {
         enable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(PermissionActivity.this, MainActivity.class);
+                Intent i = new Intent(PermissionActivity.this, HomeActivity.class);
                 startActivity(i); // invoke the SecondActivity.
                 finish(); // the current activity will get finished.
             }

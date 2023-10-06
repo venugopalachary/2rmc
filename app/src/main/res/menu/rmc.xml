@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            app:showAsAction="ifRoom"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/user"
+            app:showAsAction="ifRoom"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/tc"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            app:showAsAction="ifRoom"
+            android:title="Termsandconditions"
+            />
+
+        <item
+            android:id="@+id/pp"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            app:showAsAction="ifRoom"
+            android:title="Privacy Policy"
+            />
+
+        <item
+            android:id="@+id/rp"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            app:showAsAction="ifRoom"
+            android:title="Refund Policy"
+            />
+
+
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            app:showAsAction="ifRoom"
+            android:title="Contact Us"
+            />
+
+
+
+
+    </group>
+</menu>
